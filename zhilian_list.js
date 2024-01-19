@@ -2,7 +2,7 @@
 // @name         智联一键list勾选
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  
+// @description  不合适页面一键勾选所有职位
 // @author       Pakeh
 // @match        https://rd6.zhaopin.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=zhaopin.com
