@@ -19,13 +19,13 @@ function onloadStart() {
     console.log('validItems', validItems);
     if (validItems.length === 0) {
         console.log('没有元素: 1秒后重试');
-        setTimeout(onloadStart, 1000)
+        setTimeout(onloadStart, 500)
     }
     else {
         console.log('找到元素');
         button_list()
         console.log('懒加载侦测: 3秒后重试');
-        setTimeout(onloadStart, 3000)
+        setTimeout(onloadStart, 1500)
     }
 }
 
